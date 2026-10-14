@@ -3,8 +3,8 @@
 
 <%@ taglib prefix="c"  uri="jakarta.tags.core" %>
 
-<%@page import"com.explorworld.model.*"%>
-<%@page import"com.jal.ecommerce.util.*"%>
+<%@page import="com.sabic.explorworld.model.*"%>
+<%@page import="com.jal.ecommerce.util.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +14,9 @@
 </head>
 <body>
 
-<%@ inlude file="/html/public/common/logo.jsp" %>
-<%@ inlude file="/html/public/participante/user-menu.jsp" %>
-<%@ inlude file="/html/public/common/menu.jsp" %>
+<%@ include file="/html/public/common/logo.jsp" %>
+<%@ include file="/html/public/participante/user-menu.jsp" %>
+<%@ include file="/html/public/common/menu.jsp" %>
 
 <!--  Area de Contenido -->
 <div class="content">
